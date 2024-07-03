@@ -1,0 +1,147 @@
+.container {
+  padding: 20px;
+  background: white;
+  max-width: 1000px;
+  color: rgb(143, 146, 166);
+  font-family: "Noto Sans Georgian", sans-serif;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+.content {
+  margin-bottom: 40px;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content h1 {
+  color: #191970;
+  font-size: 2.5vw;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.content p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.leave-message {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.leave-message h2 {
+  margin-bottom: 20px;
+}
+
+.leave-message form {
+  display: flex;
+  flex-direction: column;
+}
+
+.leave-message label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.leave-message input, .leave-message textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #00c9d3;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.leave-message button {
+  padding: 10px;
+  background-color: #00c9d3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.leave-message button:hover {
+  background: #14a6ae;
+}
+
+.social-icons1 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.social-icons1 a {
+  color: #00c9d3;
+  margin: 0 10px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.social-icons1 a:hover {
+  color: #70cdd2;
+}
+
+.recent-posts {
+  width: 300px;
+  padding: 20px;
+  margin: 20px auto;
+  font-family: "Noto Sans Georgian", sans-serif;
+  margin-top: 100px;
+}
+
+.recent-posts h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #191970;
+}
+
+.post-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+.post-item a {
+  display: flex;
+  text-decoration: none;
+}
+
+.post-item img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 10px;
+}
+
+.post-info {
+  flex: 1;
+}
+
+.post-info h3 {
+  font-size: 16px;
+  margin: 0 0 5px;
+  color: #333;
+}
+
+.post-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.post-info a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.post-info a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=news3.css.map */

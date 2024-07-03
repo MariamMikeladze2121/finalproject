@@ -1,0 +1,142 @@
+@import "variables";
+footer{
+  background-color:$color-normblue ;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: baseline;
+ #imgid{
+  width: 350px;
+  height: 150px;
+  margin-left: -400px;
+  margin-top: 50px;
+  
+ }
+ #textdiv{
+  color: white;
+  font-family:$font-family;
+  font-size: 2vw;
+  font-weight: bold;
+  padding-top: 50px;
+  margin-left:180px ;
+ }
+}
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-left: 180px;
+  margin-top: 50px;
+  
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+ color: $color-lightblue;
+}
+
+#infodiv{
+  margin-left: 600px;
+  margin-top: -130px;
+  h3{
+    color: white;
+    font-family: $font-family;
+    font-weight: 800;
+    font-size: medium;
+    margin-top: 10px;
+  }
+  p{
+    color:$color-lightblue ;
+    font-family: $font-family;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+.line {
+  width: 1200px;      
+  height: 1px;        
+  background-color:$color-lightblue ;  
+  
+  margin-left: -720px;
+  margin-top: 290px;
+}
+.diagonal-line {
+  width: 1px;                      
+  height: 250px;                   
+  background-color:$color-lightblue ;         
+  transform: rotate(180dg);       
+  transform-origin: top left;     
+  margin: 20px;      
+  margin-left: 60px;              
+}
+#imgid1{
+  width: 50px;
+  height: 50px;
+  margin-left: -550px;
+  margin-top: 330px;
+}
+@media (max-width: 768px) {
+  /* Section 1 */
+  #section1 {
+      text-align: center;
+  }
+
+  #section1 img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+  }
+
+  /* Section 2 */
+  #section2 #maindiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  #section2 .imgdiv img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+  }
+
+  /* Section 3 */
+  #section3 .video-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      justify-content: center;
+  }
+
+  #section3 .video-item {
+      width: 100%;
+  }
+
+  /* Section 4 */
+  #section4 img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+  }
+
+  #section4 h3 {
+      font-size: 1.5em; /* Example font size adjustment */
+  }
+
+  /* Section 5 */
+  #section5 img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+  }
+
+  #section5 .quest {
+      font-size: 1.2em; /* Example font size adjustment */
+  }
+}

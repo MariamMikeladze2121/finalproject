@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>სერვისები</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="header">
+        <nav class="nav">
+            <input type="checkbox" id="check">
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            <ul class="menu">
+                <li><a href="index.html" >მთავარი</a></li>
+                <li><a href="#" class="active"  >სერვისები</a></li>
+                <li><a href="news.html">სიახლეები</a></li>
+                <li><a href="aboutus.html">ჩვენს შესახებ</a></li>
+                <li><a href="contact.html">კონტაქტი</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </ul>
+        </nav>
+        <img class="logo" src="images/image (1).png" alt="Logo">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search..." onkeyup="searchFunction()">
+            <div id="search-results" class="search-results"></div>
+        </div>
+        <div class="header">
+            <div class="dropdown">
+                <a href="#" class="dropbtn">LOGIN</a>
+                <div class="dropdown-content">
+                    <form action="/login" method="post">
+                        <label for="username">Username or email:</label>
+                        <input type="text" id="username" name="username" required><br>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required><br>
+                        <input type="submit" value="Log in">
+                        <a href="#">Lost your password?</a>
+                    </form>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">REGISTER</a>
+                <div class="dropdown-content">
+                    <form action="/register" method="post">
+                        <label for="new-username">Username:</label>
+                        <input type="text" id="new-username" name="new-username" required><br>
+                        <label for="new-email">Email:</label>
+                        <input type="email" id="new-email" name="new-email" required><br>
+                        <label for="new-password">Password:</label>
+                        <input type="password" id="new-password" name="new-password" required><br>
+                        <input type="submit" value="Create Account">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+<main>
+  <section class="quiz-container">
+    <h1>სავარჯიშო პრობლემები და ქუიზები</h1>
+    <div class="quiz">
+        <div class="question">
+            <h2><span>შეკითხვა 1:</span> ამოხსენით განტოლება: 2x^2 - 4x - 6 = 0</h2>
+            <ul class="answers">
+                <li><label><input type="radio" name="q1" value="x=3 or x=-1"> x = 3 ან x = -1</label></li>
+                <li><label><input type="radio" name="q1" value="x=2 or x=-3">x = 2 ან x = -3</label></li>
+                <li><label><input type="radio" name="q1" value="x=3 or x=-2"> x = 3 ან x = -2</label></li>
+                <li><label><input type="radio" name="q1" value="x=2 or x=-1"> x = 2 ან x = -1</label></li>
+            </ul>
+        </div>
+        <div class="question">
+            <h2><span>შეკითხვა 2:</span> გაამარტივეთ გამოსახულება: (2x^2 - 8x + 6)/(x-3)</h2>
+            <ul class="answers">
+                <li><label><input type="radio" name="q2" value="2x-6"> 2x - 6</label></li>
+                <li><label><input type="radio" name="q2" value="2x-2"> 2x - 2</label></li>
+                <li><label><input type="radio" name="q2" value="2x-4"> 2x - 4</label></li>
+                <li><label><input type="radio" name="q2" value="2x-8"> 2x - 8</label></li>
+            </ul>
+        </div>
+        <div class="question">
+            <h2><span>შეკითხვა 3:</span> იპოვეთ სამკუთხედის ფართობი რომლის წვეროები (1, 2), (4, 6), და  (5, 3)  წერტილებშია.</h2>
+            <ul class="answers">
+                <li><label><input type="radio" name="q3" value="5"> 5</label></li>
+                <li><label><input type="radio" name="q3" value="6"> 6</label></li>
+                <li><label><input type="radio" name="q3" value="7"> 7</label></li>
+                <li><label><input type="radio" name="q3" value="8"> 8</label></li>
+            </ul>
+        </div>
+        <button class="submit-btn" onclick="checkAnswers()" style="margin-top: 20px;">დასრულება</button>
+        <div class="feedback" id="feedback"></div>
+    </div>
+</section>
+
+<script>
+    function checkAnswers() {
+        const feedback = document.getElementById('feedback');
+        feedback.innerHTML = '';
+
+        const q1 = document.querySelector('input[name="q1"]:checked');
+        const q2 = document.querySelector('input[name="q2"]:checked');
+        const q3 = document.querySelector('input[name="q3"]:checked');
+
+        if (!q1 || !q2 || !q3) {
+            feedback.innerHTML = '<p class="incorrect">გთხოვთ უპასუხოთ ყველა შეკითხვას.</p>';
+            return;
+        }
+
+        let score = 0;
+
+        if (q1.value === 'x=3 or x=-1') {
+            score++;
+            feedback.innerHTML += '<p class="correct"> შეკითხვა 1 სწორია!</p>';
+        } else {
+            feedback.innerHTML += '<p class="incorrect">შეკითხვა 1 არასწორია. სწორი პასუხია x = 3 ან x = -1.</p>';
+        }
+
+        if (q2.value === '2x-2') {
+            score++;
+            feedback.innerHTML += '<p class="correct"> შეკითხვა 2 სწორია!</p>';
+        } else {
+            feedback.innerHTML += '<p class="incorrect">შეკითხვა 2 არასწორია. სწორი პასუხია 2x - 2.</p>';
+        }
+
+        if (q3.value === '5') {
+            score++;
+            feedback.innerHTML += '<p class="correct">შეკითხვა 3 სწორია!</p>';
+        } else {
+            feedback.innerHTML += '<p class="incorrect">შეკითხვა 3 არასწორია . სწორი პასუხია 5.</p>';
+        }
+
+        feedback.innerHTML += `<p>თქვენი შედეგი: ${score}/3</p>`;
+    }
+</script>
+</main>
+<footer>
+  <div id="footerdiv">
+  <h1 id="textdiv">დაგვიკავშირდით</h1>
+  <div class="social-icons">
+      <a href="https://www.facebook.com" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.twitter.com" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.pinterest.com" class="social-icon" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+    
+    <a href="https://telegram.me" class="social-icon" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+  </div>
+   <div id="infodiv">
+    <h3> ჩვენი მაილი</h3>
+      <p>TechSchool@geolab.edu.ge</p>
+      <h3> ჩვენი მობილური</h3>
+    <p>555 333 444</p>
+    <h3> ჩვენი მისამართი </h3>
+    <p>საქართველო</p>
+  </div>
+</div>
+  
+  <div class="diagonal-line"></div>
+  <div class="line"></div>
+  <img src="images/image (2).png" id="imgid">
+  <img src="images/icons8-flower-64.png" id="imgid1">
+</footer>
+<script>
+  window.addEventListener('scroll', function() {
+      var header = document.getElementById('header');
+      if (window.scrollY > 50) {
+          header.classList.add('scrolled');
+      } else {
+          header.classList.remove('scrolled');
+      }
+  });
+</script>
+</body>
+</html>

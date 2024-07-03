@@ -1,0 +1,50 @@
+#aboutusmain {
+  display: flex;
+  margin-bottom: 200px;
+}
+#aboutusmain img {
+  width: 600px;
+  height: 500px;
+  border-radius: 15px;
+  margin-left: 100px;
+}
+#aboutusmain #aboutusid h1 {
+  color: #191970;
+  font-weight: 900;
+  font-size: 40px;
+  margin-left: 200px;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+#aboutusmain #aboutusid p {
+  width: 600px;
+  margin-left: 50px;
+  color: rgb(143, 146, 166);
+  font-family: "Noto Sans Georgian", sans-serif;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #aboutusid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #aboutusid img {
+    order: -1;
+    margin-bottom: 10px;
+  }
+  #aboutusid h1 {
+    font-size: 1.5em;
+  }
+  #aboutusid p {
+    font-size: 0.9em;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #aboutusid h1 {
+    font-size: 1.2em;
+  }
+  #aboutusid p {
+    font-size: 0.8em;
+  }
+}/*# sourceMappingURL=aboutus.css.map */

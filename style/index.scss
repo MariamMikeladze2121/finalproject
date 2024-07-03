@@ -1,0 +1,459 @@
+@import "variables";
+main{
+  margin-top: 200px;
+}
+ #section1{ 
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  #divid{
+    font-size: 48px;
+    font-weight:1000;
+    color:$color-darkblue ;
+    width: 700px;
+    font-family:$font-family ;
+    margin-left: 140px;
+  }
+  p{
+    width: 630px;
+    margin-left: 140px;
+    margin-top: 30px;
+    color:rgb(143, 146, 166) ;
+    font-family:$font-family ;
+    line-height: 1.5;
+   
+  }
+  .container{
+    margin-top: 30px;
+   margin-left: 130px;
+  }
+  img{
+    width: 650px;
+    height: 600px;
+    margin-top: -80px;
+    margin-left: -50px;
+  }
+}
+#buttonid{
+  background-color:$color-normblue ;
+  color: white !important;
+  margin-left: -420px;
+}
+#buttonid1{
+  background-color:white ;
+  color:$color-normblue ;
+  border: 2px solid $color-normblue;
+}
+.button {
+  font-family:$font-family ;
+  border: none;
+  color:$color-normblue;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 40px;
+  width: 120px;
+  transition: background-color 0.3s;
+}
+
+#buttonid:hover {
+  background-color: #407b94;
+  color: white;
+  border:  #407b94;
+}
+#buttonid1:hover {
+  color:white;
+  background-color: $color-normblue;
+  
+}
+#section2{
+  margin-bottom: 300px;
+ .divclass{
+  display: flex;
+ }
+ .imgdiv{
+  overflow: hidden; 
+  position: relative;
+  width: 380px;
+  height: 250px;
+  border-radius: 10px;
+ }
+  #divid1{
+    width: 200px;
+    color: white;
+    background-color: $color-normblue;
+    height: 30px;
+    font-family:$font-family ;
+    border-radius: 14px;
+    margin-left: 600px;
+    padding-left: 15px;
+    padding-top: 2px;
+  }
+  #divid2{
+    font-size: 36px;
+    font-weight:800;
+    color:$color-darkblue;
+    font-family:$font-family ;
+    margin-left: 370px;
+    margin-top: 20px;
+  } 
+  #maindiv{
+    margin-left: 100px;
+    margin-top: 50px;
+  img{
+    border-radius:10px ;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease; 
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  img:hover{
+    transform: scale(1.1);
+    
+  }
+  #divid3{
+    position: absolute;
+  background-color: white !important;
+  width: 340px;
+  height:150px ;
+  margin-top: -20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  h4{
+    margin-top: 20px;
+    font-size:large;
+    color: $color-darkblue;
+    font-family: $font-family;
+    font-weight: 600;
+    margin-left: 100px;
+  }
+  p{
+    margin-top: 20px;
+    color:rgb(143, 146, 166) ;
+    width: 330px;
+    font-family:$font-family ;
+    padding-left:5px ;
+    line-height: 1.5;
+  }
+  }
+}
+}
+#section3{
+display: flex;
+  margin-bottom: 100px;
+  #maindiv1{
+    #divid4{
+      background-color:$color-normblue ;
+      height: 30px;
+      width: 300px;
+      color: white;
+      font-family:$font-family ;
+      border-radius: 10px;
+      margin-left: 100px;
+      padding-left: 15px;
+      padding-top:5px ;
+    }
+    h3{
+      font-size: 36px;
+    font-weight:800;
+    color: $color-darkblue;
+    font-family:$font-family ;
+    margin-left: 100px;
+    margin-top: 30px;
+    }
+    p{
+      color:rgb(143, 146, 166) ;
+      font-family:$font-family ;
+      width: 500px;
+      margin-left: 100px;
+      margin-top: 40px;
+      line-height: 1.5;
+    }
+    a{
+      text-decoration: none;
+      div{
+        color: white;
+        background-color:$color-normblue ;
+        width: 100px;
+        height: 30px;
+        margin-left: 100px;
+        margin-top: 30px;
+        border-radius: 10px;
+        font-family:$font-family ;
+        padding-left: 15px;
+        padding-top:5px ;
+      }
+      div:hover{
+        
+          background-color: #407b94;
+          color: white;
+          
+      }
+    }
+  }
+}
+.container {
+  text-align: center;
+  margin: 20px;
+  margin-left: 80px;
+}
+.video-grid {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-left: -50px;
+  
+}
+iframe {
+  width: 100%;
+  margin-left: -100px;
+  margin-top: -50px;
+  margin-left: 50px;
+}
+#video-row{
+  
+  margin-left: 5px;
+  a:hover{
+    background-color: rgb(189, 189, 189);
+  }
+  h4{
+    color: $color-darkblue;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: $font-family;
+  }
+  div{
+    display: flex;
+    margin-bottom: 10px;
+    p{
+      color:rgb(143, 146, 166);
+      margin-top: 20px;
+      margin-left: 60px;
+      font-family: $font-family;
+      line-height: 1.5;
+    }
+    h4{
+      font-weight:900 ;
+      font-size: large;
+      margin-left: -2px;
+      font-family: $font-family;
+    }
+  }
+  a{
+    display: flex;
+    cursor: pointer;
+  img{
+    display: block;
+    width: 70px;
+    margin-top: 10px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  p{
+    color:rgb(143, 146, 166);
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 50px;
+    font-family: $font-family;
+    line-height: 2;
+  }
+  }
+}
+#section4{
+  margin-top: 100px;
+  display: flex;
+  div{
+    margin-left: 100px;
+    margin-top: 100px;
+  h3{
+    color:#333e79 ;
+    font-family: $font-family;
+    font-weight:bolder;
+    font-size: xx-large;
+  }
+  p{
+    color:rgb(143, 146, 166);
+    font-family: $font-family;
+    width: 700px;
+    margin-top: 40px;
+    line-height: 1.5;
+  }
+}
+  img{
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+  }
+}
+#section5{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  display: flex;
+  #divid5{
+    background-color:$color-normblue ;
+    max-width: 1200px;
+    height:320px ;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+  .quest{
+    color: white;
+    font-family:$font-family;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  p{
+    color:$color-lightblue ;
+    font-family:$font-family;
+   margin-top: 45px;
+   margin-left: 40px;
+   font-size: medium;
+  }
+  img{
+    width: 240px;
+    height: 240px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  }
+}
+.buttondiv{
+  margin-left: -470px;
+}
+.button1 {
+  font-family:$font-family ;
+  border: 2px solid $color-lightblue ;
+  color:white;
+  background-color:$color-normblue ;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 40px;
+  width: 120px;
+  transition: border 0.3s;
+  margin-top: 210px;
+  margin-left: 20px;
+  
+
+
+}
+.button1:hover{
+  border: 2px solid white ;
+}
+
+@media (max-width: 510px) {
+  #section1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-left: 300px;
+}
+
+
+
+#section1 .container {
+    text-align: center;
+}
+
+#section1 .button-container {
+    margin-top: 20px;
+}
+}
+
+@media (max-width: 510px) {
+  
+  
+  #section2 #maindiv {
+    margin-left: 600px;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  
+  #divid2{
+    width: 100%;
+
+  }
+  #duvid3{
+    margin-top: 100px;
+  }
+  #section2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #section2 .divclass {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #section2 #maindiv {
+    #divid3{
+     
+      margin-top: 200px;
+    }
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  #maindiv1{
+    display: block;
+  }
+ 
+}
+@media (max-width: 768px) {
+  #section4 {
+      flex-direction: column;
+      text-align: center;
+      margin-left: 150px;
+  }
+
+  #section4 img {
+     
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+
+  #section4 div {
+      text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  #section5{
+    height: 500px;
+    display: block;
+  }
+ #divid5{
+  width: 500px;
+ }
+
+#divquest{
+  display: block;
+  width: 100px;
+}
+#buttondiv{
+  margin-top: 300px;
+  margin-left: 200px;
+  
+}
+}

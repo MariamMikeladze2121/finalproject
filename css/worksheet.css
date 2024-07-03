@@ -1,0 +1,79 @@
+.worksheets {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 40px 100px;
+  margin-left: 150px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.worksheets h1 {
+  color: #191970;
+  margin-bottom: 20px;
+  font-size: 3vw;
+  font-weight: bolder;
+}
+
+.worksheets p {
+  color: rgb(143, 146, 166);
+  margin-bottom: 40px;
+}
+
+.worksheet-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.worksheet-card {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: left;
+}
+
+.worksheet-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.worksheet-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.worksheet-card h3 {
+  color: #191970;
+  margin: 15px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.worksheet-card p {
+  color: #777777;
+  margin: 0 15px 15px 15px;
+}
+
+.download-button {
+  display: inline-block;
+  margin: 0 15px 15px 15px;
+  padding: 10px 20px;
+  background-color: #00c9d3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.download-button:hover {
+  background-color: #14a6ae;
+}/*# sourceMappingURL=worksheet.css.map */

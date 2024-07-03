@@ -1,0 +1,79 @@
+@import "variables";
+.problem-statement, .steps, .solution {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  color:rgb(143, 146, 166)  ;
+  font-family:$font-family;
+  p{
+    margin-left: 100px;
+  }
+  
+  h2{
+    margin-left: 100px;
+    span{
+      color:$color-normblue ;
+      font-size: 24px;
+      font-weight:500;
+     
+    }
+    p{
+      margin-bottom: 5px;
+      margin-top: 10px;
+      margin-left: -1px;
+    }
+  }
+  h3{
+    span{
+    color:$color-normblue  ;
+    font-weight:500;
+    font-size: 18px;
+    margin-left: 100px;
+    }
+  }
+}
+
+.steps .step {
+  margin-bottom: 20px;
+}
+
+.btn-toggle {
+  background-color: $color-normblue;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-family:$font-family;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.btn-toggle:hover {
+  background-color: $color-normblue;
+}
+
+.hint {
+  display: none;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-top: 10px;
+  border-left: 3px solid $color-normblue;
+  font-family:$font-family;
+  margin-left: 100px;
+}
+
+.hint.show {
+  display: block;
+}
+.solution{
+  p{
+    margin-left: 100px;
+  }
+  h2{
+    font-weight:500;
+    color:$color-normblue ;
+    font-size: 18px;
+    margin-left: 100px;
+  }
+}

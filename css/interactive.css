@@ -1,0 +1,73 @@
+.problem-statement, .steps, .solution {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  color: rgb(143, 146, 166);
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+.problem-statement p, .steps p, .solution p {
+  margin-left: 100px;
+}
+.problem-statement h2, .steps h2, .solution h2 {
+  margin-left: 100px;
+}
+.problem-statement h2 span, .steps h2 span, .solution h2 span {
+  color: #00c9d3;
+  font-size: 24px;
+  font-weight: 500;
+}
+.problem-statement h2 p, .steps h2 p, .solution h2 p {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-left: -1px;
+}
+.problem-statement h3 span, .steps h3 span, .solution h3 span {
+  color: #00c9d3;
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 100px;
+}
+
+.steps .step {
+  margin-bottom: 20px;
+}
+
+.btn-toggle {
+  background-color: #00c9d3;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-family: "Noto Sans Georgian", sans-serif;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.btn-toggle:hover {
+  background-color: #00c9d3;
+}
+
+.hint {
+  display: none;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-top: 10px;
+  border-left: 3px solid #00c9d3;
+  font-family: "Noto Sans Georgian", sans-serif;
+  margin-left: 100px;
+}
+
+.hint.show {
+  display: block;
+}
+
+.solution p {
+  margin-left: 100px;
+}
+.solution h2 {
+  font-weight: 500;
+  color: #00c9d3;
+  font-size: 18px;
+  margin-left: 100px;
+}/*# sourceMappingURL=interactive.css.map */

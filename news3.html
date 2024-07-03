@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>სიახლეები</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="header">
+        <nav class="nav">
+            <input type="checkbox" id="check">
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            <ul class="menu">
+                <li><a href="index.html" >მთავარი</a></li>
+                <li><a href="services.html" >სერვისები</a></li>
+                <li><a href="#" class="active">სიახლეები</a></li>
+                <li><a href="aboutus.html">ჩვენს შესახებ</a></li>
+                <li><a href="contact.html">კონტაქტი</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </ul>
+        </nav>
+        <img class="logo" src="images/image (1).png" alt="Logo">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search..." onkeyup="searchFunction()">
+            <div id="search-results" class="search-results"></div>
+        </div>
+        <div class="header">
+            <div class="dropdown">
+                <a href="#" class="dropbtn">LOGIN</a>
+                <div class="dropdown-content">
+                    <form action="/login" method="post">
+                        <label for="username">Username or email:</label>
+                        <input type="text" id="username" name="username" required><br>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required><br>
+                        <input type="submit" value="Log in">
+                        <a href="#">Lost your password?</a>
+                    </form>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">REGISTER</a>
+                <div class="dropdown-content">
+                    <form action="/register" method="post">
+                        <label for="new-username">Username:</label>
+                        <input type="text" id="new-username" name="new-username" required><br>
+                        <label for="new-email">Email:</label>
+                        <input type="email" id="new-email" name="new-email" required><br>
+                        <label for="new-password">Password:</label>
+                        <input type="password" id="new-password" name="new-password" required><br>
+                        <input type="submit" value="Create Account">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+<main>
+  <div id="servicesdiv"> 
+    <h1>სიახლეები</h1>
+    
+    </div>
+    <div style="display: flex;">
+      
+  <div class="container">
+    <div class="content">
+        <h1>სწავლების ეფექტური მეთოდები</h1>
+        <p><strong> 2023 წლის 10 ივნისი | გამოქვეყნებულია </strong><img src="images/1cf82770b7bd6f9d6060384e6df36f2b.png" style="border-radius: 15px; margin-bottom: -10px; margin-left: 10px;"></p>
+        <img src="images/effectivemath.png" alt="Math teachers">
+        <p>მათემატიკურ განათლებაში ბოლოდროინდელმა კვლევებმა მოგვცა ღირებული ინფორმაცია სწავლების ეფექტური მეთოდების, კოგნიტური სტრატეგიებისა და ტექნოლოგიების ზემოქმედების შესახებ სწავლაზე. ამ მიგნებებს აქვს პოტენციალი მნიშვნელოვანი გავლენა მოახდინოს იმაზე, თუ როგორ უახლოვდებიან მასწავლებლები მათემატიკის სწავლებას და როგორ ერევიან მოსწავლეები მათემატიკური ცნებებით. აქ, ჩვენ ვიკვლევთ რამდენიმე სპეციფიკურ კვლევას ამ სფეროებში, რათა გავიგოთ, თუ როგორ შეუძლიათ გააუმჯობესონ მათემატიკური განათლება.</p>
+        <p>სწავლების ერთ-ერთი ეფექტური მეთოდი, რომელმაც ყურადღება მიიპყრო, არის კვლევაზე დაფუძნებული სწავლება (IBL). მიჩიგანის უნივერსიტეტის მიერ ჩატარებულმა კვლევამ გამოიკვლია IBL-ის გავლენა საშუალო სკოლის მათემატიკის სტუდენტებზე. ამ კვლევაში სტუდენტები დაიყვნენ ორ ჯგუფად: ერთი იღებდა ტრადიციულ ლექციებზე დაფუძნებულ ინსტრუქციას, ხოლო მეორე მონაწილეობდა IBL აქტივობებში. კვლევაზე დაფუძნებული სწავლება ხაზს უსვამს მოსწავლეზე ორიენტირებულ კვლევას, სადაც მოსწავლეები სვამენ კითხვებს, იკვლევენ გადაწყვეტილებებს და აყალიბებენ მათემატიკური ცნებების საკუთარ გაგებას.აღმოჩენებმა აჩვენა, რომ IBL ჯგუფის მოსწავლეებმა აჩვენეს მათემატიკური პრინციპების უფრო ღრმა გაგება და გააუმჯობესეს პრობლემების გადაჭრის უნარები ტრადიციულ სწავლების ჯგუფში მათ კოლეგებთან შედარებით. ეს მიგვითითებს იმაზე, რომ IBL-ს შეუძლია ხელი შეუწყოს უფრო მიმზიდველ და აქტიურ სასწავლო გარემოს, წაახალისოს მოსწავლეები, დაეუფლონ მათ სწავლას და განავითარონ კრიტიკული აზროვნების უნარები.</p>
+        <p>კიდევ ერთი კვლევა ფოკუსირებული იყო ამობრუნებული კლასის მოდელზე, რომელმაც პოპულარობა მოიპოვა ბოლო წლებში. გადაბრუნებული კლასის მიდგომა გულისხმობს სტუდენტების გადახედვას სასწავლო შინაარსს, როგორც წესი, ვიდეოების ან კითხვის სახით, კლასის დროის მიღმა. შემდეგ კლასში დრო ეთმობა პრაქტიკულ აქტივობებს, პრობლემის გადაჭრას და თანამშრომლობით სწავლას. სტენფორდის უნივერსიტეტის მიერ ჩატარებულმა კვლევამ შეისწავლა ამ მოდელის ეფექტურობა საშუალო სკოლის მათემატიკაში. კვლევამ აჩვენა, რომ გადაბრუნებულ კლასში მოსწავლეები უკეთესად ასრულებდნენ შეფასებებს და აჩვენებდნენ ჩართულობის უფრო მაღალ დონეს, ვიდრე ტრადიციულ კლასებში. მობრუნებული კლასის მოდელი საშუალებას იძლევა უფრო პერსონალიზებული და ინტერაქტიული სწავლის გამოცდილება, რადგან მასწავლებლებს შეუძლიათ უზრუნველყონ მიზნობრივი მხარდაჭერა და დააკმაყოფილონ სტუდენტების ინდივიდუალური საჭიროებები გაკვეთილის დროს.</p>
+        <p>სწავლების ამ მეთოდების გარდა, მათემატიკის სწავლაში გადამწყვეტ როლს თამაშობს კოგნიტური სტრატეგიები. ერთი მნიშვნელოვანი კვლევა, რომელიც გამოქვეყნდა Journal of Educational Psychology-ში, გამოიკვლია მეტაკოგნიციის როლი დაწყებითი სკოლის მოსწავლეებში მათემატიკური პრობლემების გადაჭრაში. მეტაკოგნიცია გულისხმობს საკუთარი აზროვნების პროცესების გაცნობიერებას და რეგულირებას. კვლევა მოიცავდა მკაფიო ინსტრუქციებს მეტაკოგნიტურ სტრატეგიებზე, როგორიცაა თვითკონტროლი, თვითკითხვის დასმა და რეფლექსია.შედეგებმა აჩვენა, რომ სტუდენტები, რომლებმაც მიიღეს მეტაკოგნიტური ინსტრუქცია, უფრო წარმატებულები იყვნენ რთული სიტყვების ამოცანების გადაჭრაში, ვიდრე მათ, ვინც არ მიიღეს. ეს დასკვნები ხაზს უსვამს მოსწავლეებს სწავლების მნიშვნელობას, თუ როგორ იფიქრონ თავიანთ აზროვნებაზე, რაც მათ საშუალებას აძლევს დაგეგმონ, დააკვირდნენ და შეაფასონ თავიანთი პრობლემის გადაჭრის პროცესები ეფექტურად.</p>
+        <p>კვლევის სხვა სფერო ფოკუსირებულია ზრდის აზროვნების ინტერვენციების გავლენას მათემატიკის მიღწევაზე. ზრდის აზროვნება, კონცეფცია, რომელიც პოპულარიზაციას უწევს ფსიქოლოგ კეროლ დუეკს, არის რწმენა, რომ შესაძლებლობები შეიძლება განვითარდეს თავდადებისა და შრომისმოყვარეობით. ჩიკაგოს უნივერსიტეტის მკვლევართა მიერ ჩატარებულმა კვლევამ შეისწავლა ზრდის აზროვნების ინტერვენციების ეფექტი საშუალო სკოლის მოსწავლეების დიდ ნიმუშში. ჩარევა მოიცავდა სტუდენტების სწავლებას ინტელექტის მოქნილობის შესახებ და წახალისება მათ, რომ შეეგუონ გამოწვევებს და დაჟინდნენ წარუმატებლობის პირობებში.კვლევამ აჩვენა, რომ სტუდენტები, რომლებიც მონაწილეობდნენ ზრდის აზროვნების ინტერვენციაში, აჩვენეს მნიშვნელოვანი გაუმჯობესება მათემატიკაში მუშაობისას და უფრო დიდი მზადყოფნა რთული პრობლემების გადასაჭრელად. ეს მიუთითებს იმაზე, რომ ზრდის აზროვნების ხელშეწყობას შეუძლია გააძლიეროს სტუდენტების გამძლეობა და მოტივაცია, რაც გამოიწვევს მათემატიკაში სწავლის უკეთეს შედეგებს.</p>
+        <p>ტექნოლოგიის გავლენა მათემატიკურ განათლებაზე ასევე იყო კვლევის მნიშვნელოვანი სფერო. მასაჩუსეტსის ტექნოლოგიური ინსტიტუტის (MIT) ერთმა კვლევამ შეაფასა ადაპტური სასწავლო პლატფორმების გამოყენება საშუალო სკოლის ალგებრის კლასებში. ადაპტაციური სასწავლო პლატფორმები იყენებს ალგორითმებს ინსტრუქციის პერსონალიზებისთვის, რომელიც ეფუძნება სტუდენტის ინდივიდუალურ შესრულებას, უზრუნველყოფს მიზანმიმართულ პრაქტიკას და უკუკავშირს.კვლევამ აჩვენა, რომ სტუდენტებმა, რომლებიც იყენებდნენ ადაპტირებულ სასწავლო პლატფორმას, აჩვენეს უფრო დიდი მიღწევები ალგებრის ცოდნის მხრივ, ვიდრე მათ, ვინც იღებდა ტრადიციულ სწავლებას. ადაპტაციური სწავლების პერსონალიზებული ბუნება საშუალებას აძლევს სტუდენტებს წინსვლა საკუთარი ტემპით, რაც უზრუნველყოფს მათ სათანადო დონის გამოწვევას და მხარდაჭერას.</p>
+        <p>გემიფიკაცია, თამაშის ელემენტების საგანმანათლებლო აქტივობებში ჩართვა, ასევე იქნა გამოკვლეული, როგორც მათემატიკის სწავლის გაუმჯობესების საშუალება. სამხრეთ კალიფორნიის უნივერსიტეტში ჩატარებულმა კვლევამ შეისწავლა გათამაშებული სასწავლო გარემოს გავლენა მოსწავლეთა ჩართულობაზე და მათემატიკაში მიღწევებზე. მკვლევარებმა შეიმუშავეს გათამაშებული სასწავლო გეგმა, რომელიც მოიცავდა ისეთ ელემენტებს, როგორიცაა ქულები, სამკერდე ნიშნები და ლიდერბორდები.შედეგებმა აჩვენა, რომ გამიფიცირებულ სასწავლო გარემოში მოსწავლეები იყვნენ უფრო მოტივირებულები, ჩართულნი და უკეთესად ასრულებდნენ შეფასებას არაგამიფიცირებულ გარემოში მყოფებთან შედარებით. ეს იმაზე მეტყველებს, რომ გემიფიკაციას შეუძლია მათემატიკის სწავლა უფრო სასიამოვნო და მოტივაციური გახადოს სტუდენტებისთვის.</p>
+    </div>
+
+    <div class="social-icons1">
+        <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook"></a>
+        <a href="https://www.twitter.com" target="_blank" class="fab fa-twitter"></a>
+        <a href="https://www.pinterest.com" target="_blank" class="fab fa-pinterest"></a>
+        <a href="https://www.linkedin.com" target="_blank" class="fab fa-linkedin"></a>
+        <a href="https://telegram.me" target="_blank" class="fab fa-telegram"></a>
+    </div>
+
+    <div class="leave-message">
+        <h2>დატოვე კომენტარი</h2>
+        <form>
+            <label for="name">სახელი</label>
+            <input type="text" id="name" name="name" placeholder="Your name">
+
+            <label for="email">ელფოსტა</label>
+            <input type="email" id="email" name="email" placeholder="Your email">
+
+            <label for="message">კომენტარი</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message"></textarea>
+
+            <button type="submit">გაგზავნა</button>
+        </form>
+    </div>
+  </div>
+  <div class="recent-posts" >
+    <h2>ბოლო პოსტები</h2>
+
+    
+    <div class="post-item">
+      <a href="news1.html">
+        <img src="images/public-examination.png" alt="Post Image 1">
+        <div class="post-info">
+            <h3>რიცხვთა თეორია</h3>
+            <p>17 მაისი, 2024</p>
+        </div>
+      </a>
+    </div>
+  
+  
+    <div class="post-item">
+      <a href="news2.html">
+        <img src="images/online-lecturer-teaching-maths-illustration_644411-70.png" alt="Post Image 2">
+        <div class="post-info">
+            <h3>მათემატიკური საერთაშორისო ოლიმპიადა (IMO) 2023</h3>
+            <p>5 ივნისი, 2024</p>
+        </div>
+    </div>
+
+
+    <div class="post-item">
+      <a href="#">
+        <img src="images/effectivemath.png" alt="Post Image 3">
+        <div class="post-info">
+            <h3>სწავლების ეფექტური მეთოდები</h3>
+            <p>10 ივნისი, 2024</p>
+        </div>
+      </a>
+    </div>
+
+</div>
+</div>
+</main>
+<footer>
+  <div id="footerdiv">
+  <h1 id="textdiv">დაგვიკავშირდით</h1>
+  <div class="social-icons">
+      <a href="https://www.facebook.com" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.twitter.com" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.pinterest.com" class="social-icon" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+    
+    <a href="https://telegram.me" class="social-icon" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+  </div>
+   <div id="infodiv">
+    <h3> ჩვენი მაილი</h3>
+      <p>TechSchool@geolab.edu.ge</p>
+      <h3> ჩვენი მობილური</h3>
+    <p>555 333 444</p>
+    <h3> ჩვენი მისამართი </h3>
+    <p>საქართველო</p>
+  </div>
+</div>
+  
+  <div class="diagonal-line"></div>
+  <div class="line"></div>
+  <img src="images/image (2).png" id="imgid">
+  <img src="images/icons8-flower-64.png" id="imgid1">
+</footer>
+<script>
+  window.addEventListener('scroll', function() {
+      var header = document.getElementById('header');
+      if (window.scrollY > 50) {
+          header.classList.add('scrolled');
+      } else {
+          header.classList.remove('scrolled');
+      }
+  });
+</script>
+</body>
+</html>

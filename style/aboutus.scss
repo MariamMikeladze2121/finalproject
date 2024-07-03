@@ -1,0 +1,58 @@
+@import "variables";
+#aboutusmain{
+  display: flex;
+  margin-bottom: 200px;
+  img{
+    width: 600px;
+    height: 500px;
+    border-radius: 15px;
+    margin-left: 100px;
+  }
+  #aboutusid{
+    h1{
+      color: $color-darkblue;
+      font-weight:900;
+      font-size: 40px;
+      margin-left: 200px;
+      font-family:$font-family ;
+    }
+    p{
+     width: 600px;
+     margin-left: 50px;
+     color:rgb(143, 146, 166)  ;
+     font-family:$font-family ;
+     margin-top: 20px;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+ 
+  #aboutusid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #aboutusid img {
+    order: -1;
+    margin-bottom: 10px; 
+  }
+
+  #aboutusid h1 {
+    font-size: 1.5em;
+  }
+
+  #aboutusid p {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #aboutusid h1 {
+    font-size: 1.2em;
+  }
+
+  #aboutusid p {
+    font-size: 0.8em;
+  }
+}
